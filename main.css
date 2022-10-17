@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer components {
+    .qr-heading{
+        @apply  font-outfit font-bold leading-7 text-center align-top ;
+        font-size: 22px;
+
+    }
+    .qr-content{
+        @apply font-outfit font-normal text-center align-top  ;
+        font-size: 15px;
+        line-height: 19px;
+        letter-spacing: 0.19px;
+    }
+
+}
+
+

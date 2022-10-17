@@ -585,6 +585,25 @@ video {
   }
 }
 
+.qr-heading {
+  text-align: center;
+  vertical-align: top;
+  font-family: Outfit, sans-serif;
+  font-weight: 700;
+  line-height: 1.75rem;
+  font-size: 22px;
+}
+
+.qr-content {
+  text-align: center;
+  vertical-align: top;
+  font-family: Outfit, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.19px;
+}
+
 .visible {
   visibility: visible;
 }
@@ -603,9 +622,38 @@ video {
   margin-bottom: 85px;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .mb-3 {
@@ -632,16 +680,28 @@ video {
   height: 100vh;
 }
 
+.h-\[497px\] {
+  height: 497px;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
 
-.w-80 {
-  width: 20rem;
-}
-
 .w-full {
   width: 100%;
+}
+
+.w-\[320px\] {
+  width: 320px;
+}
+
+.w-\[288px\] {
+  width: 288px;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .border-collapse {
@@ -668,8 +728,8 @@ video {
   justify-content: center;
 }
 
-.rounded-\[12px\] {
-  border-radius: 12px;
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .border {
@@ -703,9 +763,12 @@ video {
   text-align: center;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.align-top {
+  vertical-align: top;
+}
+
+.font-outfit {
+  font-family: Outfit, sans-serif;
 }
 
 .text-sm {
@@ -713,8 +776,31 @@ video {
   line-height: 1.25rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.text-\[\#1F314F\] {
+  --tw-text-opacity: 1;
+  color: rgb(31 49 79 / var(--tw-text-opacity));
+}
+
+.text-\[\#7D889E\] {
+  --tw-text-opacity: 1;
+  color: rgb(125 136 158 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -734,3 +820,25 @@ video {
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+
+@media (min-width: 1024px) {
+  .lg\:my-\[151px\] {
+    margin-top: 151px;
+    margin-bottom: 151px;
+  }
+
+  .lg\:mx-\[560px\] {
+    margin-left: 560px;
+    margin-right: 560px;
+  }
+
+  .lg\:h-\[497px\] {
+    height: 497px;
+  }
+
+  .lg\:w-\[320px\] {
+    width: 320px;
+  }
+}
+
+

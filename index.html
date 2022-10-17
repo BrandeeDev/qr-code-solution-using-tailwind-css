@@ -6,16 +6,22 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="./output.css" rel="stylesheet">
 
-
-  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">  <title>Frontend Mentor | QR code component</title>
 
 </head>
-<body class="bg-light-gray">
-<main class="container flex justify-center items-center h-screen bg-grey_col-100  ">
-<section class="container flex flex-col justify-center items-center mx-7 my-[85px] bg-white ">
-  <img class="mx-auto rounded-[12px] mb-3" src="images/image-qr-code.png" alt="QR Code" >
-  <h1 class="font-bold text-center text-lg text-dark-blue p-4">Improve your front-end skills by building projects</h1>
-  <p class="text-center text-grayish-blue text-sm px-4 pb-4">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+<body >
+<main class="container flex flex-col justify-center items-center h-screen w-full bg-grey_col-100  ">
+<section class="container  rounded-lg flex flex-col justify-center items-center mx-7 my-[85px] bg-white w-[320px] h-[497px]  lg:w-[320px] lg:h-[497px] lg:my-[151px] lg:mx-[560px]  ">
+  <div class="container w-[288px] flex flex-col justify-center items-center mt-4 mx-4">
+    <picture class="w-full" >
+      <img class="rounded-lg " src="images/image-qr-code.png" alt="QR Code" />
+
+    </picture>
+    <h1 class="qr-heading text-[#1F314F] mt-6">Improve your front-end skills by building projects</h1>
+    <p class="qr-content text-[#7D889E] mt-4 mb-[40px]">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
 
 </section>
 </main>
